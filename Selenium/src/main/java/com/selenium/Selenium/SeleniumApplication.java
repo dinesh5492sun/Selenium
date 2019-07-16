@@ -11,7 +11,7 @@ public class SeleniumApplication {
 		String projectLocation =System.getProperty("user.dir");
 	
 		System.setProperty("webdriver.chrome.driver", projectLocation+"/src/lib/chromedriver/chromedriver.exe");
-		//74.0.3729.6
+	    //# download chrome Driver from here https://chromedriver.storage.googleapis.com/index.html?path=74.0.3729.6/
 
 		WebDriver driver = new ChromeDriver();
 		
