@@ -12,6 +12,7 @@ public class SeleniumApplication {
 	
 		System.setProperty("webdriver.chrome.driver", projectLocation+"/src/lib/chromedriver/chromedriver.exe");
 	    //# download chrome Driver from here https://chromedriver.storage.googleapis.com/index.html?path=74.0.3729.6/
+	   // XPath Helper chrome extension
 
 		WebDriver driver = new ChromeDriver();
 		
